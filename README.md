@@ -2,7 +2,7 @@
 
 Welcome to my Servlet learning repository! Here, I document my journey of learning Servlets from scratch. Each commit represents a milestone in my learning process, covering various topics related to Servlet development.
 
-![Servlet Logo]("./assets/images/javaBanner.png")
+![Servlet Logo](assets/images/javaBanner.png)
 
 ## Table of Contents
 
