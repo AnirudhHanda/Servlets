@@ -11,13 +11,4 @@
   	<url-pattern>/add</url-pattern>
   </servlet-mapping>
   
-  <servlet>
-  	<servlet-name>sqServlet</servlet-name>
-  	<servlet-class>com.anirudhhanda.SqServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>sqServlet</servlet-name>
-  	<url-pattern>/sq</url-pattern>
-  </servlet-mapping>
-  
 </web-app>

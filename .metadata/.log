@@ -2358,3 +2358,21 @@ java.net.ConnectException: Connection refused
 
 !ENTRY org.eclipse.jst.server.core 4 0 2024-04-20 10:22:50.623
 !MESSAGE Could not launch in profiling mode because no profilers are configured.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:43:03.927
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:43:23.189
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:43:44.937
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:44:17.357
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:44:24.215
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2024-04-20 11:45:25.841
+!MESSAGE Server Tomcat v10.1 Server at localhost failed to start.

@@ -21,5 +21,7 @@ public class AddServlet extends HttpServlet{
 		RequestDispatcher rd = req.getRequestDispatcher("sq");
 		rd.forward(req, res);		// throws Servlet Exception
 		
+		
+		
 	}
 }
