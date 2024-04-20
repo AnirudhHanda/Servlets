@@ -9,11 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 public class SqServlet extends HttpServlet {
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException{
-		// RequestDispatcher Thingy
-//		int sum = (int) req.getAttribute("sum");		// cuz req.getAttribute return an object
-		
-		// using sendRedirect and (URL Re-writing)
-		int sum = Integer.parseInt(req.getParameter("sum"));
+		int sum = (int) req.getAttribute("sum");		// cuz req.getAttribute return an object
 		
 		int sqResult = sum * sum;
 		PrintWriter out = res.getWriter();

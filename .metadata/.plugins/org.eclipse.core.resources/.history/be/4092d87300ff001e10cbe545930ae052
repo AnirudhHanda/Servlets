@@ -16,15 +16,10 @@ public class AddServlet extends HttpServlet{
 		
 		int sum = num1 + num2;
 		
-		// RequestDispatcher Thingy
+		req.setAttribute("sum", sum);
 		
-//		req.setAttribute("sum", sum);
-//		
-//		RequestDispatcher rd = req.getRequestDispatcher("sq");
-//		rd.forward(req, res);		// throws Servlet Exception
-		
-		// sendRedirect Thingy (with URL Re-writing)
-		res.sendRedirect("sq?sum="+sum);
+		RequestDispatcher rd = req.getRequestDispatcher("sq");
+		rd.forward(req, res);		// throws Servlet Exception
 		
 	}
 }
